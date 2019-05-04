@@ -2,6 +2,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/teraar1q/public_html/
     - /bin/cp *.html $DEPLOYPATH
+    - /bin/cp *.pdf $DEPLOYPATH
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp robots.txt $DEPLOYPATH
     - /bin/cp sitemap.xml $DEPLOYPATH
